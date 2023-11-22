@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    border: 5px solid green;
+
+    box-sizing: border-box;
+
+}
+
+.login-card{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    height: 210px;
+    width: 320px;
+
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(189, 185, 185);
+    box-sizing: border-box;
+
+
+}
+
+#signIn{
+    position: relative;
+    top: 5px;
+
+}
+
+
+.input{
+    height: 15px;
+    width: 100px;
+}
+
+
+#username{
+    position: relative;
+    top: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+#password{
+    position: relative;
+    top: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+#button1{
+    position: relative;
+    top: 50px;
+    height:20px;
+    width: 110px;
+    border-radius: 20px;
+    background-color: lightskyblue;
+    border: none;
+}
